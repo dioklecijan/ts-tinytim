@@ -1,5 +1,5 @@
 
-Typescript port of [tynytim](https://github.com/baryon/node-tinytim) template engine.
+Typescript port of [node-tinytim](https://github.com/baryon/node-tinytim) template engine.
 
 ## Usage
 

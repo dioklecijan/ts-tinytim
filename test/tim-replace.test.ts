@@ -4,7 +4,6 @@ import { tim } from "../src/index";
 describe("String inline tests", () => {
   it("inline replace on simple string", () => {
     const result = tim("Hello {{place}}", { place: "world" });
-    console.log(result);
     expect(result).toBe("Hello world");
   });
 
