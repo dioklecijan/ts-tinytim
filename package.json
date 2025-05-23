@@ -1,0 +1,42 @@
+{
+  "name": "ts-tinytim",
+  "version": "1.0.0",
+  "description": "typescript port of tinytim template engine",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "tinytim",
+    "template",
+    "template-engine",
+    "typescript"
+  ],
+  "author": "Mario Gudelj",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dioklecijan/ts-tinytim"
+  },
+  "bugs": {
+    "url": "https://github.com/dioklecijan/ts-tinytim/issues"
+  },
+  "homepage": "https://github.com/dioklecijan/ts-tinytim#readme",
+  "dependencies": {
+    "@types/node": "20"
+  }
+}
